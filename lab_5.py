@@ -82,18 +82,18 @@ def main():
     solar_system.add_planet(jupiter)
     solar_system.add_planet(mars)
 
-    print("\nІнформація про планети:")
+    print(f"Інформація про планети:")
     solar_system.display_all_planets()
 
     solar_system.sort_by_day_length()
-    print("\nПланети після сортування за довжиною дня:")
+    print(f"Планети після сортування за довжиною дня:")
     solar_system.display_all_planets()
 
-    print("\nОбчислення відстані між планетами:")
+    print(f"Обчислення відстані між планетами:")
     solar_system.find_distance_between(earth, jupiter)
 
 
-    print("\nОбчислення середньої маси планет:")
+    print(f"Обчислення середньої маси планет:")
     solar_system.find_average_mass()
 
 if __name__ == "__main__":
